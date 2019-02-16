@@ -1,0 +1,70 @@
+html, body{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: relative;
+}
+
+header, footer, section, main{
+	margin: 0 auto;
+	width: 100%;
+	height: 100vh; /*vh means percentage of viewport height*/
+	display: flex;
+	position: relative;
+	text-align: center;
+	align-items: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; /*images don't scroll w/ page*/
+	justify-content: center;
+	z-index: 2;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+	color:white;
+	text-shadow: .05em .05em #440022;
+	text-align: center;
+	z-index: 3;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-align: center;
+}
+
+h1{
+	font-size: 4em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+#head{
+	background-image: url(../img/bacon.jpg)
+}
+
+#section1{
+	background-image: url(../img/zslaw.jpg)
+}
+
+#mapid{
+	background-image: url(../img/degoya.jpg)
+}
+
+#foot{
+	background-image: url(../img/fire.jpg)
+}
+
+#mapid{
+	position: relative;
+	z-index: -1;
+	height: 100vh;
+	background-image: url(../img/parker.jpg)
+}
+
+@media(max-width:1024px){
+	/*stuff*/
+}
