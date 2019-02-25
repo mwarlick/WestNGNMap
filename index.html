@@ -10,8 +10,25 @@
 
 <body>
 
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<!-- Not exactly sure what this line of code does? -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- This section creates the top navigation bar with tabs (Take Test, View Results, Contact) -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="takeTheTest.html">Take the Test</a>
+  <a href="viewResults.html">View Results</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- This section creates the header section, below the top navigation bar -->
 	<header id="head">
-<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+          <h1>Welcome to WestNGN </h1>
+          <p> An initiative to improve broadband speed in Western North Carolina </p>
 	</header>
 
 	
@@ -19,13 +36,9 @@
 			
 		<section id="mapid"></section>
 
-		<section id="section1">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>			
-		</section>
-		
 	</main>
 	
-	<footer id="foot"><h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6></footer>
+	<footer id="foot"><h6>FILL IN</h6></footer>
 	
 	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
 	<script src="js/map.js"></script>
