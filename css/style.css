@@ -76,6 +76,21 @@ h2{
 	height: 100vh;
 }
 
+.mapinfo{
+	background-color: #555555;
+	width: 33%;
+}
+
+#infoselect{
+	position: relative;
+	justify-content: center;
+	margin: 0 auto;
+	width: 87%;
+	background-size: cover;
+	background-color: #A4A4A4;
+}
+
+
 @media(max-width:1024px){
 	/*stuff*/
 }
