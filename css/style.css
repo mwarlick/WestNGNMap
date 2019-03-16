@@ -6,18 +6,19 @@ html, body{
 	position: relative;
 }
 
+
+#head{
+	background-image: url(../img/blue-ridge.jpg)
+}
+
 header {
 	text-align: center;
 	width: 100%;
-	height: 50%;
+	height: 60%;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
 	overflow: hidden;
-}
-
-#head{
-	background-image: url(../img/blue-ridge.jpg)
 }
 
 footer, section, main{
@@ -57,44 +58,6 @@ h2{
 }
 
 
-
-#section1{
-	/*background-image: url(../img/zslaw.jpg)*/
-}
-
-#mapid{
-	/*background-image: url(../img/degoya.jpg)*/
-}
-
-#foot{
-	/*background-image: url(../img/fire.jpg)*/
-}
-
-#mapid{
-	position: relative;
-	z-index: -1;
-	height: 100vh;
-}
-
-.mapinfo{
-	background-color: #555555;
-	width: 33%;
-}
-
-#infoselect{
-	position: relative;
-	justify-content: center;
-	margin: 0 auto;
-	width: 87%;
-	background-size: cover;
-	background-color: #A4A4A4;
-}
-
-
-@media(max-width:1024px){
-	/*stuff*/
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -118,13 +81,25 @@ h2{
   color: black;
 }
 
-/* Add an active class to highlight the current page */
-.active {
-  background-color: #4CAF50;
-  color: white;
+
+#mapid{
+	position: relative;
+	z-index: -1;
+	height: 100vh;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
+.mapinfo{
+	background-color: #555555;
+	width: 33%;
 }
+
+#infoselect{
+	position: relative;
+	justify-content: center;
+	margin: 0 auto;
+	width: 87%;
+	background-size: cover;
+	background-color: #A4A4A4;
+}
+
+
