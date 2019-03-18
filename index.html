@@ -12,13 +12,9 @@
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
 </head>
 
-<body>
-
-<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<!-- Not exactly sure what this line of code does? -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!-- This section creates the top navigation bar with tabs (Take Test, View Results, Contact) -->
+<header id="head">
+ 
+ <!-- This section creates the top navigation bar with tabs (TakeTest, View Results, Contact) -->
 <div class="topnav" id="myTopnav">
   <a href="index.html" class="active">Home</a>
   <a href="takeTheTest.html">Take the Test</a>
@@ -29,48 +25,12 @@
   </a>
 </div>
 
-<!-- This section creates the header section, below the top navigation bar -->
-<header id="head">
 	  <h1>Welcome to WestNGN </h1>
 	  <p> An initiative to improve broadband speed in Western North Carolina </p>
 
 </header>
 
-	
-	<main id="main">
-			
-		<!--	The map goes here	-->
-		<section id="mapid">
-		</section>
-		
-		<!--	This section outlines a div where a user can select between different maps	-->
-		<section class="mapinfo">
-
-			<div id= "infoselect"> 
-				<!-- These radio buttons can be switched out with a div or h1 tag, but indication should be added in JS so users know what the current selection is -->
-				<h3>
-				<input id="map1" type="radio" value="map1" name="map" 
-					   checked onclick="{mapSwitch()}">Map1<br>
-				<input id="map2" type="radio" name="map" value="map2"
-					   onclick="{mapSwitch()}">Map2<br>
-				<input id="map3" type="radio" name="map" value="map3"
-					   onclick="{mapSwitch()}">Map3<br>
-				<input id="map4" type="radio" name="map" value="map4"
-					   onclick="{mapSwitch()}">Map4
-				</h3>
-			</div>
-
-		</section>
-		
-
-	</main>
-	
-	<footer id="foot"><h6>FILL IN</h6></footer>
-	
-	<!--Import the Leaflet Javascript for Mapbox-->
-	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
-	<!--The Javascript for this page, would not work when placed in head for some reason-->
-	<script src="js/map.js"></script>
-
+<body>
 </body>
+
 </html>
