@@ -7,6 +7,22 @@ html, body{
 }
 
 
+.parallax {
+background-image: url(../img/asheville.jpg);
+height: 100%; 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+#content{
+    height: 500px;
+    background-color:#3e3d64;
+}
+
+
 #head{
 	background-image: url(../img/blue-ridge.jpg)
 }
@@ -63,7 +79,7 @@ header h2{
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #3e3d64;
   overflow: hidden;
     
 }
@@ -106,4 +122,11 @@ header h2{
 	background-color: #A4A4A4;
 }
 
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bg {
+        background-attachment: scroll;
+    }
+}
 
