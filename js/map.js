@@ -40,7 +40,6 @@ function mapSwitch(){
 	}
 }
 
-mapSwitch;
 
 var popup = L.popup();
 
@@ -51,3 +50,6 @@ function onMapClick(e) {
         .openOn(map);
 }
 map.on('click', onMapClick);
+document.getElementById("map1").setAttribute("checked", true);
+mapSwitch();
+
