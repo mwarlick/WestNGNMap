@@ -6,15 +6,15 @@ function mapSwitch(){
 	if (document.getElementById("map1").checked){
 			
 		//The default map goes here~!
-			L.tileLayer('https://api.mapbox.com/styles/v1/bsowka/cjsk5mt8s2yp01gp6jq7fkz07/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYnNvd2thIiwiYSI6ImNqcjBzaXR1NDBzYnY0YWxzaDdrajQ1NHYifQ.HTlG0daGz_x9u2dC_sMvig', {	
+			L.tileLayer('https://api.mapbox.com/styles/v1/bsowka/cju5xvmx418p11fqeel1ag352/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYnNvd2thIiwiYSI6ImNqcjBzaXR1NDBzYnY0YWxzaDdrajQ1NHYifQ.HTlG0daGz_x9u2dC_sMvig', {	
 			}).addTo(map);
 
 			console.log("map 1 is checked and loaded");
 	
 	} else if 
-		(document.getElementById("map2").checked){
+		(document.getElementById("service").checked){
 			
-			L.tileLayer('https://api.mapbox.com/styles/v1/mwilson3/cjsbs2l9c189c1ftbrzrrlk30/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibXdpbHNvbjMiLCJhIjoiY2pyMHNrMHR5MHNmeTN5cXF4cmk0dTNpaiJ9.IrVUHrCHf8jdwV9RcYym_w', {
+			L.tileLayer('https://api.mapbox.com/styles/v1/bsowka/cju5zvl405hs41fmt3edxxej9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYnNvd2thIiwiYSI6ImNqcjBzaXR1NDBzYnY0YWxzaDdrajQ1NHYifQ.HTlG0daGz_x9u2dC_sMvig', {
 			}).addTo(map);
 			
 			console.log("map 2 is checked and loaded");
