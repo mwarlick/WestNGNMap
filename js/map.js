@@ -22,7 +22,7 @@ function mapSwitch(){
 	} else if 
 		(document.getElementById("map3").checked){
 			
-			L.tileLayer('https://api.mapbox.com/styles/v1/mwilson3/cjsbs6amg15801go76ls8btsf/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibXdpbHNvbjMiLCJhIjoiY2pyMHNrMHR5MHNmeTN5cXF4cmk0dTNpaiJ9.IrVUHrCHf8jdwV9RcYym_w', {
+			L.tileLayer('https://api.mapbox.com/styles/v1/bsowka/cjuigs20201to1fnu9ic2kju5/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYnNvd2thIiwiYSI6ImNqcjBzaXR1NDBzYnY0YWxzaDdrajQ1NHYifQ.HTlG0daGz_x9u2dC_sMvig', {
 			}).addTo(map);
 			
 			console.log("map 3 is checked and loaded");
